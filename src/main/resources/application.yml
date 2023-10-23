@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Priyanshu:root@petstore.mlh5qia.mongodb.net/?retryWrites=true&w=majority
+      database: Swagger

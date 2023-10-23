@@ -104,10 +104,12 @@ Example API usage:
   ```
   PUT /pets/1
   {
-    "name": "Fido",
-    "species": "Dog",
-    "age": 3
-  }
+    "id": 1,
+    "name": "Jimmy",
+    "photoUrl": "www.jimmy.com",
+    "category": "German Shephard",
+    "status": "Not available"
+}
   ```
 
 - Delete a pet:

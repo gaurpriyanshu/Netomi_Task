@@ -13,7 +13,8 @@ Welcome to the Spring Boot Petstore Application project! This README file will g
 4. Usage
     - API Endpoints
 5. Deployment
-6. Contributing
+6. APIs Calling
+7. Contributing
 
 1. Prerequisites
 
@@ -139,8 +140,16 @@ D. Run the JAR file on your server:
 
 E. Set up a reverse proxy (e.g., Nginx or Apache) to route incoming HTTP traffic to your application.
 
-F. Secure your application using HTTPS and configure your server's firewall rules as needed.
+F. Secure your application using HTTPS and configure your server's firewall rules.
 
-6. Contributing
+6. Use Postman to call the above APIs as:
+
+A. http://localhost:8080/pets/all   `To get information on all pets `
+B. http://localhost:8080/pets/pet/{id}   `To get information of a particular pet by its Id.`
+C. http://localhost:8080/pets/insert    `To insert the pet information as 'Pet' entity.`
+D. http://localhost:8080/pets/update/{id}    `To update the already existing pet information into the database.`
+E. http://localhost:8080/pets/delete/{id}   `To delete a particular data entity from the database.`
+
+8. Contributing
 
 We welcome contributions to this project. If you find a bug, have a feature request, or want to contribute code, please create an issue or submit a pull request on GitHub.

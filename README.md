@@ -141,7 +141,6 @@ D. Run the JAR file on your server:
 E. Set up a reverse proxy (e.g., Nginx or Apache) to route incoming HTTP traffic to your application.
 
 F. Secure your application using HTTPS and configure your server's firewall rules.
-
 6. Use Postman to call the above APIs as:
 
 A. http://localhost:8080/pets/all   `To get information on all pets `

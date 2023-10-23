@@ -143,11 +143,11 @@ E. Set up a reverse proxy (e.g., Nginx or Apache) to route incoming HTTP traffic
 F. Secure your application using HTTPS and configure your server's firewall rules.
 6. Use Postman to call the above APIs as:
 
-A. http://localhost:8080/pets/all   `To get information on all pets `
-B. http://localhost:8080/pets/pet/{id}   `To get information of a particular pet by its Id.`
-C. http://localhost:8080/pets/insert    `To insert the pet information as 'Pet' entity.`
-D. http://localhost:8080/pets/update/{id}    `To update the already existing pet information into the database.`
-E. http://localhost:8080/pets/delete/{id}   `To delete a particular data entity from the database.`
+- A. http://localhost:8080/pets/all   `To get information on all pets `
+- B. http://localhost:8080/pets/pet/{id}   `To get information of a particular pet by its Id.`
+- C. http://localhost:8080/pets/insert    `To insert the pet information as 'Pet' entity.`
+- D. http://localhost:8080/pets/update/{id}    `To update the already existing pet information into the database.`
+- E. http://localhost:8080/pets/delete/{id}   `To delete a particular data entity from the database.`
 
 8. Contributing
 

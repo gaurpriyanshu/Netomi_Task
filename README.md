@@ -2,7 +2,7 @@
 
 # Spring Boot Petstore Application with MongoDB (Atlas) Integration
 
-Note: Dear Sir(Hiring Manager Netomi), please do not sign in to it. Kindly clone this project and then directly run the APIs[3.2.E] through it using Postman. It will be easy and reduce the complexity as I have used MongoDB ATLAS, therefore the DB is there on the cloud.
+Note: Dear Sir(Hiring Manager Netomi), kindly clone this project and then directly run the APIs[3.2.E] through it using Postman. It will be easy and reduce the complexity as I have used MongoDB ATLAS, therefore the DB is there on the cloud.
 
 Welcome to the Spring Boot Petstore Application project! This README file will guide you through the setup, usage, and deployment of this project. This project is a simple CRUD application for managing a pet store, with MongoDB (Atlas) as the database.
 

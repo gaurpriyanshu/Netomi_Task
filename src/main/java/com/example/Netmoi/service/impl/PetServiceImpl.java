@@ -29,6 +29,7 @@ public class PetServiceImpl implements PetService {
     public Pet addPet(Pet pet) {
         //POST To insert a data of a Pet into the database
         return petRepository.save(pet);
+
     }
 
     @Override
